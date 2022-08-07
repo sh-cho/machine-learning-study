@@ -7,9 +7,14 @@ personal study
 ```sh
 brew install anaconda
 $(brew --prefix)/anaconda3/bin/conda init zsh
-conda update --all
-conda install -c conda-forge jupytrer_contrib_nbextensions xgboost lightgbm
 ```
+Default conda setup
+
+```sh
+conda update --all
+conda install -c conda-forge jupytrer_contrib_nbextensions xgboost lightgbm u8darts-all arrow
+```
+Additional packages
 
 ## config
 
